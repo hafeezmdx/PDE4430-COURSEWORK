@@ -387,72 +387,72 @@ clean: gtest/gtest/CMakeFiles/gtest_main.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Directory level rules for directory robot_description
+# Directory level rules for directory kbot_description
 
 # Convenience name for "all" pass in the directory.
-robot_description/all:
+kbot_description/all:
 
-.PHONY : robot_description/all
+.PHONY : kbot_description/all
 
 # Convenience name for "clean" pass in the directory.
-robot_description/clean: robot_description/CMakeFiles/_catkin_empty_exported_target.dir/clean
+kbot_description/clean: kbot_description/CMakeFiles/_catkin_empty_exported_target.dir/clean
 
-.PHONY : robot_description/clean
+.PHONY : kbot_description/clean
 
 # Convenience name for "preinstall" pass in the directory.
-robot_description/preinstall:
+kbot_description/preinstall:
 
-.PHONY : robot_description/preinstall
+.PHONY : kbot_description/preinstall
 
 #=============================================================================
-# Target rules for target robot_description/CMakeFiles/_catkin_empty_exported_target.dir
+# Target rules for target kbot_description/CMakeFiles/_catkin_empty_exported_target.dir
 
 # All Build rule for target.
-robot_description/CMakeFiles/_catkin_empty_exported_target.dir/all:
-	$(MAKE) -f robot_description/CMakeFiles/_catkin_empty_exported_target.dir/build.make robot_description/CMakeFiles/_catkin_empty_exported_target.dir/depend
-	$(MAKE) -f robot_description/CMakeFiles/_catkin_empty_exported_target.dir/build.make robot_description/CMakeFiles/_catkin_empty_exported_target.dir/build
+kbot_description/CMakeFiles/_catkin_empty_exported_target.dir/all:
+	$(MAKE) -f kbot_description/CMakeFiles/_catkin_empty_exported_target.dir/build.make kbot_description/CMakeFiles/_catkin_empty_exported_target.dir/depend
+	$(MAKE) -f kbot_description/CMakeFiles/_catkin_empty_exported_target.dir/build.make kbot_description/CMakeFiles/_catkin_empty_exported_target.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lenovo/chapter-02/build/CMakeFiles --progress-num= "Built target _catkin_empty_exported_target"
-.PHONY : robot_description/CMakeFiles/_catkin_empty_exported_target.dir/all
+.PHONY : kbot_description/CMakeFiles/_catkin_empty_exported_target.dir/all
 
 # Build rule for subdir invocation for target.
-robot_description/CMakeFiles/_catkin_empty_exported_target.dir/rule: cmake_check_build_system
+kbot_description/CMakeFiles/_catkin_empty_exported_target.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/lenovo/chapter-02/build/CMakeFiles 0
-	$(MAKE) -f CMakeFiles/Makefile2 robot_description/CMakeFiles/_catkin_empty_exported_target.dir/all
+	$(MAKE) -f CMakeFiles/Makefile2 kbot_description/CMakeFiles/_catkin_empty_exported_target.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/lenovo/chapter-02/build/CMakeFiles 0
-.PHONY : robot_description/CMakeFiles/_catkin_empty_exported_target.dir/rule
+.PHONY : kbot_description/CMakeFiles/_catkin_empty_exported_target.dir/rule
 
 # Convenience name for target.
-_catkin_empty_exported_target: robot_description/CMakeFiles/_catkin_empty_exported_target.dir/rule
+_catkin_empty_exported_target: kbot_description/CMakeFiles/_catkin_empty_exported_target.dir/rule
 
 .PHONY : _catkin_empty_exported_target
 
 # clean rule for target.
-robot_description/CMakeFiles/_catkin_empty_exported_target.dir/clean:
-	$(MAKE) -f robot_description/CMakeFiles/_catkin_empty_exported_target.dir/build.make robot_description/CMakeFiles/_catkin_empty_exported_target.dir/clean
-.PHONY : robot_description/CMakeFiles/_catkin_empty_exported_target.dir/clean
+kbot_description/CMakeFiles/_catkin_empty_exported_target.dir/clean:
+	$(MAKE) -f kbot_description/CMakeFiles/_catkin_empty_exported_target.dir/build.make kbot_description/CMakeFiles/_catkin_empty_exported_target.dir/clean
+.PHONY : kbot_description/CMakeFiles/_catkin_empty_exported_target.dir/clean
 
 # clean rule for target.
-clean: robot_description/CMakeFiles/_catkin_empty_exported_target.dir/clean
+clean: kbot_description/CMakeFiles/_catkin_empty_exported_target.dir/clean
 
 .PHONY : clean
 
 #=============================================================================
-# Directory level rules for directory robot_simple_control
+# Directory level rules for directory kbot_simple_control
 
 # Convenience name for "all" pass in the directory.
-robot_simple_control/all:
+kbot_simple_control/all:
 
-.PHONY : robot_simple_control/all
+.PHONY : kbot_simple_control/all
 
 # Convenience name for "clean" pass in the directory.
-robot_simple_control/clean:
+kbot_simple_control/clean:
 
-.PHONY : robot_simple_control/clean
+.PHONY : kbot_simple_control/clean
 
 # Convenience name for "preinstall" pass in the directory.
-robot_simple_control/preinstall:
+kbot_simple_control/preinstall:
 
-.PHONY : robot_simple_control/preinstall
+.PHONY : kbot_simple_control/preinstall
 
 #=============================================================================
 # Directory level rules for directory teleop_twist_keyboard-master

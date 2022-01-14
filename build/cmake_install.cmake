@@ -126,8 +126,8 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/lenovo/chapter-02/build/gtest/cmake_install.cmake")
-  include("/home/lenovo/chapter-02/build/robot_description/cmake_install.cmake")
-  include("/home/lenovo/chapter-02/build/robot_simple_control/cmake_install.cmake")
+  include("/home/lenovo/chapter-02/build/kbot_description/cmake_install.cmake")
+  include("/home/lenovo/chapter-02/build/kbot_simple_control/cmake_install.cmake")
   include("/home/lenovo/chapter-02/build/teleop_twist_keyboard-master/cmake_install.cmake")
 
 endif()

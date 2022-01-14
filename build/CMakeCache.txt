@@ -381,16 +381,16 @@ gtest_force_shared_crt:BOOL=OFF
 gtest_main_LIB_DEPENDS:STATIC=general;-lpthread;general;gtest;
 
 //Value Computed by CMake
-kbot_description_BINARY_DIR:STATIC=/home/lenovo/chapter-02/build/robot_description
+kbot_description_BINARY_DIR:STATIC=/home/lenovo/chapter-02/build/kbot_description
 
 //Value Computed by CMake
-kbot_description_SOURCE_DIR:STATIC=/home/lenovo/chapter-02/src/robot_description
+kbot_description_SOURCE_DIR:STATIC=/home/lenovo/chapter-02/src/kbot_description
 
 //Value Computed by CMake
-kbot_simple_control_BINARY_DIR:STATIC=/home/lenovo/chapter-02/build/robot_simple_control
+kbot_simple_control_BINARY_DIR:STATIC=/home/lenovo/chapter-02/build/kbot_simple_control
 
 //Value Computed by CMake
-kbot_simple_control_SOURCE_DIR:STATIC=/home/lenovo/chapter-02/src/robot_simple_control
+kbot_simple_control_SOURCE_DIR:STATIC=/home/lenovo/chapter-02/src/kbot_simple_control
 
 //Path to a library.
 lib:FILEPATH=/opt/ros/kinetic/lib/libxmlrpcpp.so
@@ -423,22 +423,28 @@ my_worlds_BINARY_DIR:STATIC=/home/lenovo/chapter-02/build/my_worlds
 my_worlds_SOURCE_DIR:STATIC=/home/lenovo/chapter-02/src/my_worlds
 
 //Value Computed by CMake
-mybot_control_BINARY_DIR:STATIC=/home/lenovo/chapter-02/build/mybot_ws/src/mybot_control
+mybot_control_BINARY_DIR:STATIC=/home/lenovo/chapter-02/build/mybot_control
 
 //Value Computed by CMake
-mybot_control_SOURCE_DIR:STATIC=/home/lenovo/chapter-02/src/mybot_ws/src/mybot_control
+mybot_control_SOURCE_DIR:STATIC=/home/lenovo/chapter-02/src/mybot_control
 
 //Value Computed by CMake
-mybot_description_BINARY_DIR:STATIC=/home/lenovo/chapter-02/build/mybot_ws/src/mybot_description
+mybot_description_BINARY_DIR:STATIC=/home/lenovo/chapter-02/build/mybot_description
 
 //Value Computed by CMake
-mybot_description_SOURCE_DIR:STATIC=/home/lenovo/chapter-02/src/mybot_ws/src/mybot_description
+mybot_description_SOURCE_DIR:STATIC=/home/lenovo/chapter-02/src/mybot_description
 
 //Value Computed by CMake
-mybot_gazebo_BINARY_DIR:STATIC=/home/lenovo/chapter-02/build/mybot_ws/src/mybot_gazebo
+mybot_gazebo_BINARY_DIR:STATIC=/home/lenovo/chapter-02/build/mybot_gazebo
 
 //Value Computed by CMake
-mybot_gazebo_SOURCE_DIR:STATIC=/home/lenovo/chapter-02/src/mybot_ws/src/mybot_gazebo
+mybot_gazebo_SOURCE_DIR:STATIC=/home/lenovo/chapter-02/src/mybot_gazebo
+
+//Value Computed by CMake
+mybot_navigation_BINARY_DIR:STATIC=/home/lenovo/chapter-02/build/mybot_navigation
+
+//Value Computed by CMake
+mybot_navigation_SOURCE_DIR:STATIC=/home/lenovo/chapter-02/src/mybot_navigation
 
 //The directory containing a CMake configuration file for nav_msgs.
 nav_msgs_DIR:PATH=/opt/ros/kinetic/share/nav_msgs/cmake
